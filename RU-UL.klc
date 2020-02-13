@@ -18,7 +18,7 @@ SHIFTSTATE
 6	//Column 7 :       Ctrl Alt
 7	//Column 8 : Shft  Ctrl Alt
 
-LAYOUT		;an extra '@' at the end is a dead key 
+LAYOUT		;an extra '@' at the end is a dead key
 
 //SC	VK_		Cap	0	1	2	6	7
 //--	----		----	----	----	----	----	----
@@ -31,9 +31,9 @@ LAYOUT		;an extra '@' at the end is a dead key
 07	6		0	003a	6	-1	-1	-1		// COLON, DIGIT SIX, <none>, <none>, <none>
 08	7		0	003f	7	-1	-1	-1		// QUESTION MARK, DIGIT SEVEN, <none>, <none>, <none>
 09	8		0	002a	8	-1	-1	-1		// ASTERISK, DIGIT EIGHT, <none>, <none>, <none>
-0a	9		0	0028	9	-1	-1	-1		// LEFT PARENTHESIS, DIGIT NINE, <none>, <none>, <none>
-0b	0		0	0029	0	-1	-1	-1		// RIGHT PARENTHESIS, DIGIT ZERO, <none>, <none>, <none>
-0c	OEM_MINUS	0	002d	005f	-1	-1	-1		// HYPHEN-MINUS, LOW LINE, <none>, <none>, <none>
+0a	9		0	0028	9	-1	2190	-1		// LEFT PARENTHESIS, DIGIT NINE, <none>, LEFTWARDS ARROW, <none>
+0b	0		0	0029	0	-1	2192	-1		// RIGHT PARENTHESIS, DIGIT ZERO, <none>, RIGHTWARDS ARROW, <none>
+0c	OEM_MINUS	0	002d	005f	-1	2014	-1		// HYPHEN-MINUS, LOW LINE, <none>, EM DASH, <none>
 0d	OEM_PLUS	0	003d	002b	-1	-1	-1		// EQUALS SIGN, PLUS SIGN, <none>, <none>, <none>
 10	Q		1	0439	0419	-1	-1	-1		// CYRILLIC SMALL LETTER SHORT I, CYRILLIC CAPITAL LETTER SHORT I, <none>, <none>, <none>
 11	W		1	0446	0426	-1	-1	-1		// CYRILLIC SMALL LETTER TSE, CYRILLIC CAPITAL LETTER TSE, <none>, <none>, <none>
@@ -58,7 +58,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 26	L		1	0434	0414	-1	-1	-1		// CYRILLIC SMALL LETTER DE, CYRILLIC CAPITAL LETTER DE, <none>, <none>, <none>
 27	OEM_1		1	0436	0416	-1	-1	-1		// CYRILLIC SMALL LETTER ZHE, CYRILLIC CAPITAL LETTER ZHE, <none>, <none>, <none>
 28	OEM_7		1	044d	042d	-1	-1	-1		// CYRILLIC SMALL LETTER E, CYRILLIC CAPITAL LETTER E, <none>, <none>, <none>
-29	OEM_3		1	0027	007e	-1	-1	-1		// APOSTROPHE, TILDE, <none>, <none>, <none>
+29	OEM_3		1	0027	007e	-1	0060	-1		// APOSTROPHE, TILDE, <none>, GRAVE ACCENT, <none>
 2b	OEM_5		0	0022	002f	001c	-1	-1		// QUOTATION MARK, SOLIDUS, INFORMATION SEPARATOR FOUR, <none>, <none>
 2c	Z		1	044f	042f	-1	-1	-1		// CYRILLIC SMALL LETTER YA, CYRILLIC CAPITAL LETTER YA, <none>, <none>, <none>
 2d	X		1	0447	0427	-1	-1	-1		// CYRILLIC SMALL LETTER CHE, CYRILLIC CAPITAL LETTER CHE, <none>, <none>, <none>
