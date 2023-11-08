@@ -3,7 +3,7 @@ Package of Russian and English keyboard layouts, designed for convenient simulta
 
 Installation packages for keyboard layouts were created by [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) and are located in [en-ul](https://github.com/Thecentury/Windows-Universal-Layout/tree/master/en-ul) and [ru-ul](https://github.com/Thecentury/Windows-Universal-Layout/tree/master/ru-ul) folders of the repository.
 
-Heavily inspired by Nikita Prokopov's [Universal Layout](https://github.com/tonsky/Universal-Layout).
+Heavily inspired by Nikita Prokopov's [Universal Layout](https://github.com/tonsky/Universal-Layout) for macOS.
 
 ## Screenshots
 
